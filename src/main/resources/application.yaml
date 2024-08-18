@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: kafka-streams
+  kafka:
+    streams:
+      application-id: my-streams-app
+app:
+  topic:
+    input: intopic
+    output: outtopic
+logging:
+  level:
+    root: info
